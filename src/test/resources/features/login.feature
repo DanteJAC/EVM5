@@ -23,5 +23,5 @@ Feature: Inicio de sesión en la aplicación
     Examples:
       | usuario        | contraseña     | mensaje                                                     |
       | standard_user  | secret_sauce   | Bienvenido a la tienda                                      |
-      | locked_user    | secret_sauce   | Username and password do not match any user in this service |
-      | standard_user  | wrong_password | Username and password do not match any user in this service |
+      | locked_user    | secret_sauce   | Epic sadface: Username and password do not match any user in this service |
+      | standard_user  | wrong_password | Epic sadface: Username and password do not match any user in this service |
